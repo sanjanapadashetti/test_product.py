@@ -11,10 +11,11 @@ def product_info(product_id, name, quantity, price):
 
 
 if __name__ == "__main__":
-    product_id = "P102"
-    name = "Keyboard"
-    quantity = 5   
-    price = 899.5
+    product_id = "K193"
+    name = "Kitkat"
+    quantity = "40kg"   
+    price = 20
 
     print("Product Details:\n")
     print(product_info(product_id, name, quantity, price))
+
