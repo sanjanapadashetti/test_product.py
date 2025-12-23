@@ -2,10 +2,10 @@ from product import get_product_info
 
 def test_product_info():
     expected_output = (
-        "Product ID: P102\n"
-        "Name: Keyboard\n"
-        "Quantity: 5\n"
-        "Price: 899.5\n"
+        "Product ID: K193\n"
+        "Name: KitKat\n"
+        "Quantity: 40g\n"
+        "Price: 20\n"
     )
 
-    assert get_product_info("P102", "Keyboard", 5, 899.5) == expected_output
+    assert get_product_info("K193", "KitKat", "20", 40g) == expected_output
